@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-07T19:51:26 IST" name="Suite" finished-at="2024-08-07T19:52:14 IST" duration-ms="48115">
+    <groups>
+      <group name="regression">
+        <method signature="AddToCartTestCases.AddToCartWithQuantityZero_TC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" name="AddToCartWithQuantityZero_TC01" class="com.orangehrm.testcases.AddToCartTestCases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddToCartTestCases.AddToCartWithQuantityZero_TC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" name="AddToCartWithQuantityZero_TC01" class="com.orangehrm.testcases.AddToCartTestCases"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-07T19:51:26 IST" name="Test" finished-at="2024-08-07T19:52:14 IST" duration-ms="48115">
+      <class name="com.orangehrm.testcases.AddToCartTestCases">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" started-at="2024-08-07T19:51:25 IST" name="StartReport" finished-at="2024-08-07T19:51:26 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" started-at="2024-08-07T19:51:27 IST" name="setUp" finished-at="2024-08-07T19:51:32 IST" duration-ms="5519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCartWithQuantityZero_TC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" started-at="2024-08-07T19:51:32 IST" name="AddToCartWithQuantityZero_TC01" data-provider="AddToCartWithQuantityZeroTC01_TestData" finished-at="2024-08-07T19:52:14 IST" duration-ms="41253" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Your shopping cart is empty!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.fail(Assert.java:53)
+at com.orangehrm.commands.Commands.Click(Commands.java:32)
+at com.orangehrm.pages.AddToCart.AddToCartWithQuantityZero(AddToCart.java:41)
+at com.orangehrm.testcases.AddToCartTestCases.AddToCartWithQuantityZero_TC01(AddToCartTestCases.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartWithQuantityZero_TC01 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" started-at="2024-08-07T19:52:14 IST" name="tearDown" finished-at="2024-08-07T19:52:14 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCartWithQuantityZero_TC01 status=FAILURE method=AddToCartTestCases.AddToCartWithQuantityZero_TC01(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:com.orangehrm.testcases.AddToCartTestCases@6a84a97d]" started-at="2024-08-07T19:52:14 IST" name="EndReport" finished-at="2024-08-07T19:52:14 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- com.orangehrm.testcases.AddToCartTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
