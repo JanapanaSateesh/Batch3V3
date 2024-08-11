@@ -36,9 +36,11 @@ public class Base  {
 		url=credentials.getUrl();
 		username=credentials.getusername();
 		password=credentials.getPassword();
+
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+
 		driver=new ChromeDriver(options);
 		driver.get(url);
 		driver.manage().window().maximize();	
