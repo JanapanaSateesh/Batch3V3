@@ -11,7 +11,7 @@ public class Web_Objects {
 	
 	//--------Search Product-------------
 	public static By searchbox=By.name("search");
-	public static By serachicon=By.xpath("//div[@id='search']//span");
+	public static By serachicon=By.xpath("//div[@id='search']//span//button");
 	public static By ClickOnProduct(String product) {
 		 return By.xpath("//a[text()='"+product+"']");
 	}

@@ -38,11 +38,11 @@ public class Base  {
 		password=credentials.getPassword();
 
 		
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
 		//After Conflicts
 
-		driver=new ChromeDriver(options);
+		driver=new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();	
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

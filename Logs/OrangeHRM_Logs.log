@@ -404,3 +404,49 @@ Command: [ea84272eb4b3d5db040fa41c9351f106, clickElement {id=f.CA7E6873BAB35C0F7
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54690/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Element: [[ChromeDriver: chrome on windows (ea84272eb4b3d5db040fa41c9351f106)] -> xpath: //a[text()='iMac']]
 Session ID: ea84272eb4b3d5db040fa41c9351f106
+2024-08-11 12:22:32,794 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:22:33,213 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:23:13,906 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:23:14,645 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:23:37,930 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //a[text()='iMac']
+2024-08-11 12:23:38,167 [main] [INFO ] rootLogger:42:Commands.java - Entered the value 2 in By.name: quantity
+2024-08-11 12:23:38,300 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.id: button-cart
+2024-08-11 12:23:38,421 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //span[@id='cart-total']/..
+2024-08-11 12:23:38,472 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : View Cart   Checkout
+2024-08-11 12:23:38,472 [main] [ERROR] rootLogger:83:Commands.java - VALIDATION IS FAILED BETWEENView Cart   Checkout,,Your shopping cart is empty!
+2024-08-11 12:25:13,493 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:25:15,137 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:25:24,031 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //a[text()='iMac']
+2024-08-11 12:25:24,220 [main] [INFO ] rootLogger:42:Commands.java - Entered the value 2 in By.name: quantity
+2024-08-11 12:25:24,348 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.id: button-cart
+2024-08-11 12:25:24,453 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //span[@id='cart-total']/..
+2024-08-11 12:25:24,510 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : View Cart   Checkout
+2024-08-11 12:25:24,510 [main] [ERROR] rootLogger:83:Commands.java - VALIDATION IS FAILED BETWEENView Cart   Checkout,,Your shopping cart is empty!
+2024-08-11 12:25:31,129 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:25:32,541 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:25:35,469 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //a[text()='iMac']
+2024-08-11 12:25:35,641 [main] [INFO ] rootLogger:42:Commands.java - Entered the value 2 in By.name: quantity
+2024-08-11 12:25:35,683 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : iMac
+2024-08-11 12:25:35,781 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.id: button-cart
+2024-08-11 12:25:35,875 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //span[@id='cart-total']/..
+2024-08-11 12:25:35,910 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : iMac
+2024-08-11 12:25:35,915 [main] [INFO ] rootLogger:81:Commands.java - Validation is successful between respective stringsiMac,,iMac
+2024-08-11 12:25:36,005 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //button[@title='Remove']
+2024-08-11 12:26:49,136 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:26:49,645 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:26:50,853 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //a[text()='iMac']
+2024-08-11 12:26:51,020 [main] [INFO ] rootLogger:42:Commands.java - Entered the value 2 in By.name: quantity
+2024-08-11 12:26:51,126 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.id: button-cart
+2024-08-11 12:26:51,200 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //span[@id='cart-total']/..
+2024-08-11 12:26:51,233 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : Your shopping cart is empty!
+2024-08-11 12:26:51,236 [main] [INFO ] rootLogger:81:Commands.java - Validation is successful between respective stringsYour shopping cart is empty!,,Your shopping cart is empty!
+2024-08-11 12:27:22,354 [main] [INFO ] rootLogger:42:Commands.java - Entered the value mac in By.name: search
+2024-08-11 12:27:22,984 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //div[@id='search']//span
+2024-08-11 12:27:49,155 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //a[text()='iMac']
+2024-08-11 12:27:49,326 [main] [INFO ] rootLogger:42:Commands.java - Entered the value 2 in By.name: quantity
+2024-08-11 12:27:49,368 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : iMac
+2024-08-11 12:27:49,505 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.id: button-cart
+2024-08-11 12:27:49,627 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //span[@id='cart-total']/..
+2024-08-11 12:27:49,661 [main] [INFO ] rootLogger:66:Commands.java - Get the text message from the application UI. The value is : iMac
+2024-08-11 12:27:49,668 [main] [INFO ] rootLogger:81:Commands.java - Validation is successful between respective stringsiMac,,iMac
+2024-08-11 12:27:49,782 [main] [INFO ] rootLogger:27:Commands.java - Click is passed on:  By.xpath: //button[@title='Remove']

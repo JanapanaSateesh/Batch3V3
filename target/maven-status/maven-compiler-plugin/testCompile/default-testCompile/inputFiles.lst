@@ -1,12 +1,13 @@
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\pages\AddToCart.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\ReadExcleCls2.java
-C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\ReadConfig.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\CaptureScreenshot.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\objects\Web_Objects.java
+C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\extentmanager\ExtentManagerCls.java
+C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\Test01.java
+C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\AddToCartTestCases.java
+C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\TestDataProvider.java
+C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\ReadConfig.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\PaymentTestCases.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\commands\Commands.java
-C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\extentmanager\ExtentManagerCls.java
-C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\AddToCartTestCases.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\Base.java
 C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\testcases\EcommerceLoginAndLogOut.java
-C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\src\test\java\com\orangehrm\utilities\TestDataProvider.java

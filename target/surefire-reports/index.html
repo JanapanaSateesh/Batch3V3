@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\sanity.xml</span>
+                    <span>C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.testcases.AddToCartTestCases" class="method navigator-link" hash-for-method="AddToCartWithQuantity2_TC02">AddToCartWithQuantity2_TC02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.orangehrm.testcases.AddToCartTestCases" class="method navigator-link" hash-for-method="AddToCartWithQuantityZero_TC01(mac, iMac, 2, Your shopping cart is empty!)">AddToCartWithQuantityZero_TC01(mac, iMac, 2, Your shopping cart is empty!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,35 +123,33 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.orangehrm.testcases.AddToCartTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartWithQuantity2_TC02">
+                  </a> <!-- AddToCartWithQuantity2_TC02 -->
+                  <span class="method-name">AddToCartWithQuantity2_TC02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="AddToCartWithQuantityZero_TC01(mac, iMac, 2, Your shopping cart is empty!)">
                   </a> <!-- AddToCartWithQuantityZero_TC01(mac, iMac, 2, Your shopping cart is empty!) -->
                   <span class="method-name">AddToCartWithQuantityZero_TC01</span>
                   <span class="parameters">(mac,iMac,2,Your shopping cart is empty!)</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.fail(Assert.java:53)
-	at com.orangehrm.commands.Commands.Click(Commands.java:32)
-	at com.orangehrm.pages.AddToCart.AddToCartWithQuantityZero(AddToCart.java:41)
-	at com.orangehrm.testcases.AddToCartTestCases.AddToCartWithQuantityZero_TC01(AddToCartTestCases.java:14)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\sanity.xml</span>
+            <span class="header-content">C:\Users\Satee\eclipse-workspace\OrangeHRMProjectBatch3\regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -154,11 +157,6 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;regression&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.testcases.AddToCartTestCases&quot;/&gt;
     &lt;/classes&gt;
@@ -196,6 +194,10 @@
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">AddToCartWithQuantity2_TC02</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">AddToCartWithQuantityZero_TC01</span>
                 <br/>
               </div> <!-- method-in-group -->
@@ -216,16 +218,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddToCartWithQuantityZero_TC01')
+data.setCell(0, 1, 'AddToCartWithQuantity2_TC02')
 data.setCell(0, 2, 'com.orangehrm.testcases.AddToCartTestCases')
-data.setCell(0, 3, 41253);
+data.setCell(0, 3, 27777);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddToCartWithQuantityZero_TC01')
+data.setCell(1, 2, 'com.orangehrm.testcases.AddToCartTestCases')
+data.setCell(1, 3, 2290);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -240,16 +246,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.orangehrm.testcases.AddToCartTestCases</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">AddToCartWithQuantity2_TC02</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -265,21 +264,31 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1323 ms</span>
+                <span class="method-start">1092 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">AddToCartWithQuantityZero_TC01(mac, iMac, 2, Your shopping cart is empty!)</span>
-                <span class="method-start">6843 ms</span>
+                <span class="method-start">5391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=AddToCartWithQuantityZero_TC01 status=FAILURE method=AddToCartTestCases.AddToCartWi...)</span>
-                <span class="method-start">48103 ms</span>
+                <span class="method-name">tearDown([TestResult name=AddToCartWithQuantityZero_TC01 status=SUCCESS method=AddToCartTestCases.AddToCartWi...)</span>
+                <span class="method-start">7683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartWithQuantity2_TC02</span>
+                <span class="method-start">38447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=AddToCartWithQuantity2_TC02 status=SUCCESS method=AddToCartTestCases.AddToCartWithQ...)</span>
+                <span class="method-start">66224 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">EndReport</span>
-                <span class="method-start">48367 ms</span>
+                <span class="method-start">66687 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
