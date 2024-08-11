@@ -32,5 +32,11 @@ jobs:
       with: 
        name: Summary Report
        path: ./Reports/*.html
+    - name: archive artifact
+      uses: actions/upload-artifact@v3
+      with: 
+       name: LOGS
+       path: ./Logs/*.log
+       
 
   
