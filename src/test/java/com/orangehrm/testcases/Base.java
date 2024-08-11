@@ -40,6 +40,7 @@ public class Base  {
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+		//After Conflicts
 
 		driver=new ChromeDriver(options);
 		driver.get(url);
