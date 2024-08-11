@@ -38,8 +38,8 @@ public class Base  {
 		password=credentials.getPassword();
 
 		
-		//ChromeOptions options = new ChromeOptions();
-		//options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
 		//After Conflicts
 
 		driver=new ChromeDriver();
